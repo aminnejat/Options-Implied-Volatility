@@ -14,8 +14,6 @@ put = [1.3675, 1.7984, 2, 2.3828, 5.7711, 10.2249]
 r=0.05
 y=0
 
-# Question1
-
 M = np.arange(-0.5,0.5,0.001)     #This is the moneyness array, which ranges from -0.5 to 0.5 by construction
 
 def volatility (S,T,K,P,M):      #This function describes volatility based on Moneyness
